@@ -14,7 +14,7 @@ Install dependencies (Ubuntu):
 apt install libseccomp-dev
 ```
 
-On NixOS execute:
+Install dependencies (NixOS):
 ```sh
 nix-shell -p gcc libseccomp
 ```
