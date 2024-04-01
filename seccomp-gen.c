@@ -47,6 +47,9 @@ int main(int argc, char *argv[])
   DENY_RULE(io_getevents);
   DENY_RULE(io_setup);
   DENY_RULE(io_submit);
+  DENY_RULE(io_uring_enter);
+  DENY_RULE(io_uring_register);
+  DENY_RULE(io_uring_setup);
   DENY_RULE(ioperm);
   DENY_RULE(iopl);
   DENY_RULE(ioprio_set);
