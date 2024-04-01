@@ -1,1 +1,4 @@
 /*.bpf
+
+# the executable binary that should be executed to acquire the seccomp file.
+/seccomp-gen
